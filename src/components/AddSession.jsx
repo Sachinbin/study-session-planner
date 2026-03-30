@@ -51,7 +51,7 @@ const AddSession = () => {
                               peer-valid:-top-3 transition-all duration-300">
               Task Title
             </label>
-            {errors.title && <p>{errors.title.message}</p>}
+            {errors.title && <p className='text-red-600'>{errors.title.message}</p>}
           </div>
 
           {/* Subject */}
@@ -68,7 +68,7 @@ const AddSession = () => {
                               peer-valid:-top-3 transition-all duration-300">
               Subject
             </label>
-            {errors.subject && <p>{errors.subject.message}</p>}
+            {errors.subject && <p className='text-red-600'>{errors.subject.message}</p>}
           </div>
 
           {/* Modern Time Input */}
@@ -87,7 +87,7 @@ const AddSession = () => {
                               peer-valid:-top-3 transition-all duration-300">
               Time
             </label>
-            {errors.time && <p>{errors.time.message}</p>}
+            {errors.time && <p className='text-red-600'>{errors.time.message}</p>}
           </div>
 
           {/* Button */}
